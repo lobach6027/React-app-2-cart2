@@ -20,7 +20,7 @@ export default function Card({
       <p>{description}</p>
       <div className={s.number}> Stock: {stock}</div>
       <p className={s.oldPrice}>
-        Price: <span className={s.oldPriceNumber}>{price}</span> $
+        Price: <span className={s.oldPriceNumber}>{price} $</span> 
       </p>
       <div className={s.newPrice}>
         <span>New price: </span>
